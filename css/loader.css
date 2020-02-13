@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 720px) {
+  .section-loader-wrapper {
+    display: none;
+  }
+}
+
 .section-loader-wrapper {
   background-color: #f5f4f1;
   text-align: center;
@@ -23,7 +29,7 @@
 .section-loader-wrapper .stage {
   position: relative;
   min-height: 80vh;
-  width: 800px;
+  width: 80rem;
   margin: auto;
 }
 
@@ -36,7 +42,7 @@
   height: 6px;
 }
 .section-loader-wrapper .ground-line div {
-  width: 1600px;
+  width: 160rem;
   font-size: 0;
   -moz-animation: roadLine 3s infinite linear;
   -webkit-animation: roadLine 3s infinite linear;
@@ -50,7 +56,7 @@
   -webkit-border-radius: 6px;
   border-radius: 6px;
   vertical-align: bottom;
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 .section-loader-wrapper .ground-line .line1 {
   width: 80px;
